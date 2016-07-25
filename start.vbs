@@ -1,0 +1,1 @@
+CreateObject("Wscript.Shell").Run "node.exe cron.js", 0, True

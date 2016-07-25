@@ -1,0 +1,17 @@
+{
+  "name": "alerttool-client",
+  "version": "1.0.0",
+  "description": "Alerttool client for desktop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vishnu T Suresh <vishnu.suresh@visualiq.com,vishnutsuresh@live.com>",
+  "license": "http://www.binpress.com/license/view/l/fba3f939ef99a6bd46056fd8d6ed7c90",
+  "dependencies": {
+    "firebase": "^3.2.0",
+    "moment": "^2.14.1",
+    "nodegit": "^0.14.1",
+    "open": "0.0.5"
+  }
+}

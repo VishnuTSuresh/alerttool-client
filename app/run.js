@@ -23,7 +23,7 @@ ref.on("value", function(snapshot) {
 });
 function popup(key){
     popups[key]=moment().unix();
-    open("http://localhost:4200/task/"+key);
+    open("https://alertingtool.firebaseapp.com/task/"+key);
 }
 setInterval(function(){
     tasks=tasks||{};

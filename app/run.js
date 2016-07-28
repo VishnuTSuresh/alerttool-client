@@ -11,7 +11,7 @@ firebase.initializeApp({
 });
 
 var db = firebase.database();
-var ref = db.ref("/tasks").orderByChild("completed").equalTo(false);
+var ref = db.ref("/tasks").orderByChild("active").equalTo(true);
 
 var tasks={};
 var popups={};

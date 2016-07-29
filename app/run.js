@@ -1,6 +1,8 @@
 var firebase = require("firebase");
-var moment = require('moment');
+var moment = require('moment-timezone');
 var open = require('open');
+
+moment.tz.setDefault("Asia/Calcutta");
 
 firebase.initializeApp({
   serviceAccount: "AlertingTool-11fe210928fa.json",
